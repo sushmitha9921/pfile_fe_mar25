@@ -1,0 +1,35 @@
+BOOTSTRAP JS AND REACT NODES
+monday  monday 17-03-2025
+
+STEPS TO CREATE NEW GITREPO:
+1.login to github account
+2.on the top left click on "+" sysmbol you will get new  repository
+3.give name of the repository
+4.make it public and check read me box
+5.click on the green button"create repository"
+
+GIT COMMANDS:
+1. $ git status
+the above command is used to know the status of the repo
+$ git clone https://<PAT>github.com/sushmitha9921/pfile_fe_mar25
+the above command copies the repo from the server(remote repo)into our computer
+$ git pull origin name
+this command downloads the updated repo from the server.main here is the default brach name
+$ git config --global user.name "sushmitha9921"
+$ git config --global user.email"sushmitha9921@gmail.com"
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT)
+1.on the top right corner click on profile icon
+2.click on settings
+3.in new window scroll down and click developers settings in the bottom left corner
+4. in the new window on top left click 2 times and then select tokens classic
+5. in the new window generate new token and select token classic
+6.note:
+this pat i have created for my learning purpose
+7.click expiry and select no expiry
+8.select the checkbox Repo
+9.scroll down and click generate token
+10.copy the PAT and mail it to urself(mail sub:-git pat)
+
+STEPS TO SYNC REMOTE RIPO WITH LO
+1.$ git clone https://<PAT>github.com/sushmitha9921/pfile_fe_mar25
